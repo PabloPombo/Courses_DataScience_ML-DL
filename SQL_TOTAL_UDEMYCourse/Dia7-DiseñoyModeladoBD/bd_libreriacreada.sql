@@ -41,8 +41,10 @@ INSERT INTO Autores (nombre, nacionalidad) VALUES
 ('Pedro', 'Peruano'),
 ('Juan', 'Colombiano');
 
-UPDATE Autores SET nacionalidad = 'Mexicano' WHERE nacionalidad='Colombiano'; 
+-- UPDATE Autores SET nacionalidad = 'Mexicano' WHERE nacionalidad='Colombiano'; 
 
-DELETE FROM Autores WHERE nacionalidad = 'Peruano';
+-- DELETE FROM Autores WHERE nacionalidad = 'Peruano';
 
-SELECT * FROM Autores
+SELECT DISTINCT * FROM Autores;
+INSERT INTO Autores (nombre, nacionalidad) VALUES
+('Luis','Argentino');
