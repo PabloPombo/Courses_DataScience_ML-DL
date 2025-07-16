@@ -1,0 +1,1 @@
+Initial_Condition = 10;
